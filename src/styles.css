@@ -1,6 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
 body {
+    background-image: url(./bg.jpeg);
     font-family: 'Fresca', sans-serif;
     font-size: 20px;
  }
