@@ -15,6 +15,7 @@ export class GithubService {
     this.user = new User("", "", "", "", "", 0, 0, 0);
     
   }
+  
   getProfileInfo(username) {
     interface ApiResponse {
     
@@ -27,6 +28,7 @@ export class GithubService {
       followers: number;
       following: number;
     }
+    
     const promise = new Promise((resolve) => {
       this.http
         .get<ApiResponse>(
