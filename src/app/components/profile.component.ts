@@ -9,6 +9,7 @@ import { GithubService } from "../services/github.service";
   providers: [GithubService]
 })
 export class ProfileComponent implements OnInit {
+ 
   user: User;
 
   constructor(
