@@ -8,6 +8,7 @@ import { GithubService } from "../services/github.service";
   styleUrls: ["./profile.component.css"],
   providers: [GithubService]
 })
+
 export class ProfileComponent implements OnInit {
  
   user: User;
@@ -18,6 +19,7 @@ export class ProfileComponent implements OnInit {
   ) {
     this.user = this.githubService.user;
   }
+  
   ngOnInit() {
     this.user = this.githubService.user;
   }
