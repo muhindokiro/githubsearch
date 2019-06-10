@@ -38,7 +38,7 @@ Technologies Used
 ------------------
 
 1. HTML
-2. CSS
+2. CSS/Bootsrap
 3. Angular JS
 4. Typescript
 
